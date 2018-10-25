@@ -3,6 +3,8 @@ A useful tool to compile the lex&amp;yacc files into cpp files( based on visual 
 
 The ppt show how to add command in visual studio to compile the .l .y files
 
+----------
+
 Command Line:
 
 win_flex --wincompat  -o %(Filename).cpp  %(Identity)
@@ -15,6 +17,7 @@ Additional Dependencies:
 
 parser.y
 
+----------
 
 Command Line: 
 
